@@ -1,0 +1,74 @@
+		html{font-family: font-family: 'Noto Sans KR', sans-serif; }
+		body,img{margin: 0;}
+
+		img{display: block; width: 100%}
+/*		.header{width: 800px; margin: auto;}*/
+		li{list-style-type:none;}
+		a{font-weight: 700;display: block;text-decoration: 0; line-height: 40px;padding: 0px 14px;border-radius: 5px;color: white; font-size: 1.5rem;}
+		li,ul{margin: 0;padding: 0}
+		.bg_wrapper{width:800px; margin: auto; position: relative;}
+		.menu{width:400px;display: flex; }
+		.img1{width: 100%;}
+		.img2{width: 100%; margin: 400px auto 0px; }
+		.img3{width: 80%; margin-left: 100px}
+		.img4{margin: 50px auto 0px;width: 80%;}
+		.wrapper3{background-color: #B6DEEB; margin: 400px auto 0px;padding: 50px 0px;}
+		.img5{width:60%; margin: auto;}
+		.img6{width: 60%; margin: auto;}
+		.img7{width: 30%; margin: 200px 0px 0px}
+		.img8{width: 80%; margin: 20px auto 0px;}
+		.img9{width: 80%; margin: 30px auto 0px;}
+		.img10{width: 100%; margin: 200px auto 0px;}
+		.img11{width: 100%; margin: 20px auto 0px;}
+		.img12{width: 100%; margin: 20px auto 0px;}
+		.img13{width: 100%; margin: 300px auto 0px;}
+		.img14{width: 33.3%; display: flex;}
+		.img16{z-index: 1}
+		.img17{width: 80%; margin: 10px auto 0px; position: relative;}
+		.img18{width: 50%; margin: 10px 300px 0px; position: relative; top:-100px;left: 200px;z-index: 2}
+		.img19{width: 100%; margin: 0px auto 0px; position: relative; top: -200px;}
+		.img20{z-index: 1}
+		.img21{width: 60%; margin: 500px auto 0px; padding-bottom: 500px;}
+		.img22{position: absolute;width: 20%;top: 250px;left: 600px;}
+		.p_ab{position: absolute; top: 350px;left: 600px; font-weight: 700}
+		.gray{background-color: #D9D9D9;position: relative;}
+		footer{background-color: white;}
+		.wrap{margin:auto; position: relative;}
+/*		.nav1{width: 50%; margin: auto;}*/
+		.wrap_nav{background-color:#005C8A; padding:1vw 2vw;}
+		a:hover{transition: all 0.5s;background: white; color:#005C8A  ;}
+		.product{ width: 100%; margin: auto;}
+		h2{width: 800px;margin: 50px auto 0px;font-weight: 700; font-size: 1.2rem;line-height:30px;color:#CF3939;}
+		.p{width: 800px;margin: 20px auto 0px;font-weight: 700; font-size: 1.2rem;line-height:30px}
+		.imgA{width: 60%; position: absolute; top: 405px; left: 330px}
+		.imgB{width: 60%; position: absolute; top: 435px; left: -50px }
+		.imgC{width: 60%; position: absolute; top: 500px; left: 205px}
+		.imgD{width: 60%; position: absolute;top: 530px; left: 240px}
+		.imgE{width: 60%; position: absolute;top: 560px; left: 160px}
+		.imgA.imgB.imgC.imgD.imgE{animation: move1 2s infinite linear;}
+		.imgAA{width: 60%; position: absolute; top: 405px; left: 330px}
+		.imgBB{width: 60%; position: absolute; top: 435px; left: -50px }
+		.imgCC{width: 60%; position: absolute; top: 500px; left: 205px}
+		.imgDD{width: 60%; position: absolute;top: 530px; left: 240px}
+		.imgEE{width: 60%; position: absolute;top: 560px; left: 160px}
+		.products{width: 1000px; margin: auto;}
+/*		.wrap_how{width: 500px;margin:auto; position: relative;}*/
+	
+		.short{width: 1000px; margin: auto;}
+    font-family: 'Milestone-Free-Version-Script';
+    src:url('Milestone-Free-Version-Script.ttf.woff') format('woff'),
+        url('Milestone-Free-Version-Script.ttf.svg#Milestone-Free-Version-Script') format('svg'),
+        url('Milestone-Free-Version-Script.ttf.eot'),
+        url('Milestone-Free-Version-Script.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700;900&display=swap" rel="stylesheet">
+
+@keyframes move1{
+			from{ transform: scale(1.0);}
+			to{ transform: scale(2.0);}
+		}
